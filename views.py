@@ -1,5 +1,3 @@
-
-
 import requests
 from flask import Flask,render_template, request
 
@@ -12,7 +10,6 @@ class Validation:
 
 validate = Validation()
 app = Flask(__name__)
-
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
